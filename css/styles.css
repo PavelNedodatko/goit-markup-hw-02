@@ -1,61 +1,10 @@
-ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
-body {
-  background-color: #e5e5e5;
-  color: #212121;
-}
+/* Палитра фон */
+/* цвет фона хэдэра #FFFFFF */
+/* основной цвет фона #E5E5E5 */
+/* цвет фона иконок секции преимущества и секции наша команда #F5F4FA  */
+/* цвет фона заливки надписей секции чем мы занимаемся rgba(47, 48, 58, 0.8) */
+/* цвет фона футера #2F303A */
 
-/* Хэдэр */
-header {
-  background-color: #ffffff;
-}
-
-.logo-web {
-  color: #2196f3;
-}
-.logo-studio {
-  color: #000000;
-}
-.site-nav .link {
-  color: #212121;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
-}
-
-/* Герой */
-.hero-title {
-  color: #ffffff;
-}
-
-/* Преимущества */
-.advantages-text {
-  color: #757575;
-}
-
-/* Чем мы занимаемся */
-.work-name {
-  color: #ffffff;
-}
-
-/* Наша команда */
-.team {
-  background-color: #f5f4fa;
-}
-
-.team-function {
-  color: #757575;
-}
-
-/* Футер */
-.contacts {
-  background-color: #2f303a;
-}
 /* Палитра текст */
 /* цвет акцента и заливки кнопок (синий) #2196F3 */
 /* черный #000000 */
@@ -64,9 +13,102 @@ header {
 /* белый #FFFFFF */
 /* электронка, телефон, имейл, подпись в футере rgba(255, 255, 255, 0.6) */
 
-/* Палитра фон */
-/* цвет фона хэдэра #FFFFFF */
-/* основной цвет фона #E5E5E5 */
-/* цвет фона иконок секции преимущества и секции наша команда #F5F4FA  */
-/* цвет фона заливки надписей секции чем мы занимаемся rgba(47, 48, 58, 0.8) */
-/* цвет фона футера #2F303A */
+:root {
+  --white: #ffffff;
+  --dark-white: #e5e5e5;
+  --grey: #f5f4fa;
+  --dark-grey: rgba(47, 48, 58, 0.8);
+  --dark-grey-footer: #2f303a;
+  --primery-text-color: #212121;
+  --accent-color: #2196f3;
+  --black: #000000;
+  --grey-text: #757575;
+  --conacts-color: rgba(255, 255, 255, 0.6);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: var(--dark-white);
+  color: var(--primery-text-color);
+}
+
+/* Хэдэр */
+header {
+  background-color: var(--white);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: var(--black);
+}
+.site-nav .link {
+  color: var(--primery-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.outh-nav .link {
+  color: var(--grey-text);
+}
+.outh-nav .link:hover,
+.outh-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+.hero-title {
+  color: var(--white);
+}
+/* Hero-button */
+.hero-button {
+  color: var(--white);
+  background-color: var(--accent-color);
+}
+
+/* Преимущества */
+.advantages-text {
+  color: var(--grey-text);
+}
+
+/* Чем мы занимаемся */
+.work-name {
+  color: var(--white);
+  background-color: var(--dark-grey);
+}
+
+/* Наша команда */
+.team {
+  background-color: var(--grey);
+}
+
+.team-function {
+  color: var(--grey-text);
+}
+
+/* Футер */
+.adress .map {
+  color: var(--white);
+}
+.adress .link {
+  color: var(--conacts-color);
+}
+.adress .link:hover,
+.adress .link:focus {
+  color: var(--accent-color);
+}
+.contacts {
+  background-color: var(--dark-grey-footer);
+}
+
+.invitation {
+  color: var(--white);
+}
+.signature {
+  color: var(--conacts-color);
+}
