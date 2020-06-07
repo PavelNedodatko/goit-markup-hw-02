@@ -1,0 +1,72 @@
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+}
+
+/* Хэдэр */
+header {
+  background-color: #ffffff;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #000000;
+}
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Герой */
+.hero-title {
+  color: #ffffff;
+}
+
+/* Преимущества */
+.advantages-text {
+  color: #757575;
+}
+
+/* Чем мы занимаемся */
+.work-name {
+  color: #ffffff;
+}
+
+/* Наша команда */
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-function {
+  color: #757575;
+}
+
+/* Футер */
+.contacts {
+  background-color: #2f303a;
+}
+/* Палитра текст */
+/* цвет акцента и заливки кнопок (синий) #2196F3 */
+/* черный #000000 */
+/* светло черный #212121 */
+/* серый #757575 */
+/* белый #FFFFFF */
+/* электронка, телефон, имейл, подпись в футере rgba(255, 255, 255, 0.6) */
+
+/* Палитра фон */
+/* цвет фона хэдэра #FFFFFF */
+/* основной цвет фона #E5E5E5 */
+/* цвет фона иконок секции преимущества и секции наша команда #F5F4FA  */
+/* цвет фона заливки надписей секции чем мы занимаемся rgba(47, 48, 58, 0.8) */
+/* цвет фона футера #2F303A */
